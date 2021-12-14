@@ -1,0 +1,73 @@
+.felsorolas2 ul li{
+    list-style-type:none;
+    color: gray;
+    
+}
+main{
+    margin: auto;
+    max-width: 1400px;
+    font-size: 25px;
+}
+header img{
+    width: 90px;
+    margin: 5px;
+}
+
+.felsorolas{
+    font-size: 20px;
+    line-height: 2;
+}
+.logo{
+    text-align: center;
+}
+
+.kep img{
+    max-height: 850px;
+    padding: 20px;
+    grid-area: ke;
+}
+
+.logo img{
+    width: 100px;
+}
+
+
+.kepmellet{
+    padding: 20px;
+    grid-area: kemsz;
+}
+.cucc{
+    display: grid;
+    grid-template-areas: "ke kemsz";
+}
+.baloldal p{
+    color: gray;
+}
+.kepalatt p{
+    color: gray;
+}
+footer{
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+}
+footer ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 70%;
+    margin: auto;
+}
+footer ul li{
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: gray;
+}
+footer img{
+    width: 400px;
+}
+footer a:hover{
+    color: white;
+}

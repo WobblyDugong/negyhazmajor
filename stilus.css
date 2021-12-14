@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+
+header{
+    text-align: center;
+}
+
+header a img{
+    width: 90px;
+    margin:5px;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    padding:5px;
+    text-decoration: none;   
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+footer{
+    text-align: center;
+    color:gray;
+}
+
+footer a:hover{
+    color: white;
+}
+
+footer ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 70%;
+    margin: auto;
+    font-size: 10px;
+    padding: 0px;
+
+}
+footer ul li{
+    
+    list-style-type: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: gray;
+}
+
+#vilagoskek{
+    background-color: rgb(168,218,216);
+    height: 30px;
+}
+
+#sotetkek{
+    background-color: rgb(27,165,162);
+    height: 12px;
+}
+
+#fekete{
+    height: 42px;
+}
+
+.aktualis {
+    border: 2px solid white;
+    border-radius: 15px;
+}
